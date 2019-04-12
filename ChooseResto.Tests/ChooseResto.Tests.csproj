@@ -98,6 +98,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChooseResto\ChooseResto.csproj">
+      <Project>{2CAE3774-C04E-4F12-9532-036A695BE8F8}</Project>
+      <Name>ChooseResto</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
